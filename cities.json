@@ -1,0 +1,42 @@
+[{
+  "city": "London",
+  "continent": "Europe",
+  "description":"London, the capital of England and the United Kingdom, is a 21st-century city with history stretching back to Roman times. At its centre stand the imposing Houses of Parliament, the iconic ‘Big Ben’ clock tower and Westminster Abbey, site of British monarch coronations. Across the Thames River, the London Eye observation wheel provides panoramic views of the South Bank cultural complex, and the entire city.",
+  "images": [
+    {"name": "London/9415244.jpg",
+     "description": "Houses of Parliment"},
+    {"name": "London/5271143.jpg", "description": "Big Ben"},
+    {"name": "London/9473084.jpg", "description": "Westminster Abbey"}, 
+    {"name": "London/7601470.jpg", "description": "London Eye"}
+    ],
+  "latitude":"51.508742",
+  "longitude":"-0.120850"
+},
+{
+  "city": "New York",
+  "continent": "America",
+  "description": "New York City comprises 5 boroughs sitting where the Hudson River meets the Atlantic Ocean. At its core is Manhattan, a densely populated borough that’s among the world’s major commercial, financial and cultural centers. Its iconic sites include skyscrapers such as the Empire State Building and sprawling Central Park. Broadway theater is staged in neon-lit Times Square",
+  "images": [
+    {"name": "New_York/6551692.jpg",
+     "description": "Empire State Building"},
+    {"name": "New_York/6668904.jpg", "description": "Central Park"},
+    {"name": "New_York/1790360.jpg", "description": "Times Square"}, 
+    {"name": "New_York/0292883.jpg", "description": "Statue of Liberty"}
+    ],
+  "latitude":"40.730610",
+  "longitude":"-73.935242"
+},
+{
+  "city": "Rome",
+  "continent": "Europe",
+  "description":"Rome, Italy’s capital, is a sprawling, cosmopolitan city with nearly 3,000 years of globally influential art, architecture and culture on display. Ancient ruins such as the Forum and the Colosseum evoke the power of the former Roman Empire. Vatican City, headquarters of the Roman Catholic Church, has St. Peter’s Basilica and the Vatican Museums, which house masterpieces such as Michelangelo’s Sistine Chapel frescoes.",
+  "images": [
+    {"name": "Rome/8342108.jpg",
+     "description": "Roman Forum"},
+    {"name": "Rome/3301521.jpg", "description": "Colosseum"},
+    {"name": "Rome/1795554.jpg", "description": "Sistine Chapel"}, 
+    {"name": "Rome/8573136.jpg", "description": "Trevi Fountain"}
+    ],
+  "latitude":"41.902782",
+  "longitude":"12.496366"
+}]

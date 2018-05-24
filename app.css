@@ -1,0 +1,58 @@
+.container-fluid {
+	max-width: 1080px;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.select-city {
+	color: #ffffff;
+}
+
+.city-bio {
+  background-color: #f1f1f1;
+  margin: 25px 0px 0px 30px;
+  height: 180px;
+  font-size: 12px;
+}
+
+.city-datetime{
+  font-size: 12px;
+  margin-top: -10px;
+} 
+
+.city-details {
+	background-color: #f1f1f1;
+  margin: 25px 0px 0px 30px;
+  height: 160px;
+}
+
+.temperature {
+  font-size: 65px;
+}
+
+.description {
+  margin-top: -25px;
+  font-size: 24px;
+}
+
+.slideshow {
+  margin: 25px 0px 0px 30px;
+  height: 200px;
+}
+
+.map {
+	margin: 25px 0px 0px 30px;
+  height: 200px;
+}
+
+.carousel-inner{
+  width:100%;
+  max-height: 200px !important;
+}
+
+.carousel-inner img {
+      width: 100%;
+      max-height: 200px !important;
+  }
