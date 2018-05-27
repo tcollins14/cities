@@ -47,7 +47,7 @@ $.each(data, function(key, val){
         $(".carousel-indicators").replaceWith("<ul class='carousel-indicators'></ul>");
           $(".carousel-inner").replaceWith("<div class='carousel-inner'></div>");
           $.each(val.images, function (key, val) {
-          $('<div class="carousel-item"><img src="images/'+ val.name +'"><div class="carousel-caption"><p>' + val.description + '</p></div></div>').appendTo('.carousel-inner');
+          $('<div class="carousel-item"><img src="images/'+ val.name +'"><div class="carousel-caption d-none d-md-block"><p class="attraction">' + val.description + '</p></div></div>').appendTo('.carousel-inner');
           $('<li data-target="#slideshow-carousel" data-slide-to="'+ key +'"></li>').appendTo('.carousel-indicators')
           })
           $('.carousel-indicators > li').first().addClass('active');
@@ -70,7 +70,7 @@ $.each(data, function(key, val){
         $(".carousel-indicators").replaceWith("<ul class='carousel-indicators'></ul>");
           $(".carousel-inner").replaceWith("<div class='carousel-inner'></div>");
           $.each(val.images, function (key, val) {
-          $('<div class="carousel-item"><img src="images/'+ val.name +'"><div class="carousel-caption"><p>' + val.description + '</p></div></div>').appendTo('.carousel-inner');
+          $('<div class="carousel-item"><img src="images/'+ val.name +'"><div class="carousel-caption d-none d-md-block"><p class="attraction">' + val.description + '</p></div></div>').appendTo('.carousel-inner');
           $('<li data-target="#slideshow-carousel" data-slide-to="'+ key +'"></li>').appendTo('.carousel-indicators')
           })
           $('.carousel-indicators > li').first().addClass('active');

@@ -56,3 +56,20 @@ body {
       width: 100%;
       max-height: 200px !important;
   }
+
+.carousel-caption {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      z-index: 10;
+      padding-top: 5px;
+      padding-bottom: 20px;
+      color: #fff;
+      text-align: center;
+      background: rgba(0,0,0,0.4);
+}
+
+.attraction {
+  font-family: Verdana;
+}
